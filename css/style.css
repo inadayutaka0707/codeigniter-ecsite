@@ -1,0 +1,29 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:red;
+}
+
+.top_menu_style img{
+	width: 100%;
+	height: 15rem;
+}
+
+.detail_menu_style_sizeM{
+	text-align: right;
+}
+
+.detail_menu_style_sizeL{
+	text-align: left;
+}
+
+.detail_menu_style_price{
+	text-align:center;
+}
+
+.detail_menu_style_image img{
+	width:100%;
+}
