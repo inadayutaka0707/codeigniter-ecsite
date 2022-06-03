@@ -1,5 +1,5 @@
-<div>
-	yu ta nu ki&copy;ec site
+<div class="footer_style">
+	yu_ta_nu_ki&copy;ec_site
 </div>
 </body>
 

@@ -4,9 +4,9 @@
 			<div class="row">
 				<?php foreach ($item_group as $item) : ?>
 					<div class="col-4 top_menu_style_grid">
+						<p><?= $item['name'] ?></p>
 						<a href='javascript:item<?= $item['id'] ?>.submit()'>
 							<?= form_open('detail', 'name=item' . $item['id']) ?>
-							<p><?= $item['name'] ?></p>
 							<?= img('images/' . $item['image_path'], TRUE) ?>
 							<p><?= $item['description'] ?></p>
 							<input type="hidden" name="id" value="<?= $item['id'] ?>">

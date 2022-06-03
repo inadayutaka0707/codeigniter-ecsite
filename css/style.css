@@ -4,7 +4,11 @@ body{
 
 a{
 	text-decoration:none;
-	color:red;
+}
+
+.footer_style {
+	width: 100%;
+	text-align: center;
 }
 
 .top_menu_style img{
@@ -26,4 +30,44 @@ a{
 
 .detail_menu_style_image img{
 	width:100%;
+}
+
+.top_menu_style_grid:nth-child(2) {
+	background-color: whitesmoke;
+}
+
+.login_style_form {
+	margin: 1rem auto;
+	width: 60%;
+	border: 1px solid gray;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.login_style_input {
+	padding-bottom: 2rem;
+}
+
+.login_style_register {
+	width: 60%;
+	margin: auto;
+	text-align: right;
+}
+
+.register_style_form {
+	margin: 1rem auto;
+	width: 60%;
+	border: 1px solid gray;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.register_style_input {
+	padding-bottom: 2rem;
+}
+
+.register_style_register {
+	width: 60%;
+	margin: auto;
+	text-align: right;
 }

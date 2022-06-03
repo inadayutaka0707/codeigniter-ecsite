@@ -8,6 +8,7 @@ class Menu extends CI_Controller
 		$this->load->library('menu_service');
 		$this->load->helper('url_helper');
 		$this->load->library('form_validation');
+		$this->load->library('session');
 	}
 
 	public function index()
